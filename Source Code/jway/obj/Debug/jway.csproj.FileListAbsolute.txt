@@ -1,0 +1,82 @@
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\bin\Debug\jway.exe.config
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\bin\Debug\jway.exe
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\bin\Debug\jway.pdb
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.csprojResolveAssemblyReference.cache
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.cage.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.catégorie.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.etage.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.index.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.produit.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.Properties.Resources.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.type.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.csproj.GenerateResource.Cache
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.exe
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.pdb
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.TicketProduit.resources
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\bin\Debug\KeepAutomation.Barcode.Crystal.dll
+C:\Users\bader\Documents\Visual Studio 2013\Projects\jway\jway\obj\Debug\jway.BarCodeForm.resources
+C:\Users\bader\Desktop\New folder\jway\bin\Debug\jway.exe.config
+C:\Users\bader\Desktop\New folder\jway\obj\Debug\jway.exe
+C:\Users\bader\Desktop\New folder\jway\obj\Debug\jway.pdb
+C:\Users\bader\Desktop\Current Work\jway\bin\Debug\jway.exe.config
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.exe
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.pdb
+C:\Users\bader\Desktop\Current Work\jway\bin\Debug\jway.exe
+C:\Users\bader\Desktop\Current Work\jway\bin\Debug\jway.pdb
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.csprojResolveAssemblyReference.cache
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.cage.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.catégorie.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.etage.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.index.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.produit.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.Properties.Resources.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.TicketProduit.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.type.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.csproj.GenerateResource.Cache
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.login.resources
+C:\Users\bader\Desktop\Current Work\jway\obj\Debug\jway.admin.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\bin\Debug\jway.exe.config
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.exe
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.pdb
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\bin\Debug\jway.exe
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\bin\Debug\jway.pdb
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.csprojResolveAssemblyReference.cache
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.cage.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.catégorie.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.etage.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.index.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.admin.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.login.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.produit.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.Properties.Resources.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.TicketProduit.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.type.resources
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\obj\Debug\jway.csproj.GenerateResource.Cache
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\bin\Debug\jway.exe.CodeAnalysisLog.xml
+C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\bin\Debug\jway.exe.lastcodeanalysissucceeded
+C:\Users\badr\Desktop\Program 100% backup\jway\bin\Debug\jway.exe.config
+C:\Users\badr\Desktop\Program 100% backup\jway\obj\Debug\jway.exe
+C:\Users\badr\Desktop\Program 100% backup\jway\obj\Debug\jway.pdb
+C:\Users\bader\Desktop\New Current Work\jway\bin\Debug\jway.exe.config
+C:\Users\bader\Desktop\New Current Work\jway\bin\Debug\jway.exe.manifest
+C:\Users\bader\Desktop\New Current Work\jway\bin\Debug\jway.application
+C:\Users\bader\Desktop\New Current Work\jway\bin\Debug\jway.exe
+C:\Users\bader\Desktop\New Current Work\jway\bin\Debug\jway.pdb
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.cage.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.catégorie.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.Connection.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.etage.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.index.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.admin.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.login.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.produit.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.Profil.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.Properties.Resources.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.TicketProduit.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.type.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.verification.resources
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.csproj.GenerateResource.Cache
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.exe.manifest
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.application
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.exe
+C:\Users\bader\Desktop\New Current Work\jway\obj\Debug\jway.pdb

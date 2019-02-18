@@ -1,0 +1,5 @@
+Authentification SQL Server : 
+USER-PC
+jwork3
+sa
+hisokax@_@**00

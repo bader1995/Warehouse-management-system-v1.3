@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="C:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway\bin\Debug\jway.exe">
+   <Modules>
+    <Module Name="jway.exe">
+     <Namespaces>
+      <Namespace Name="jway">
+       <Types>
+        <Type Name="admin" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_inscription_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="admin.cs" Line="67">The query string passed to 'SqlCommand.CommandText.set(string)' in 'admin.btn_inscription_Click(object, EventArgs)' could contain the following variables 'this.txt_cin.Text', 'this.txt_nom.Text', 'this.txt_prenom.Text', 'this.txt_email.Text', 'new string[13][9]', 'this.type_list.SelectedItem'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_modifier_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="admin.cs" Line="209">The query string passed to 'SqlCommand.CommandText.set(string)' in 'admin.btn_modifier_Click(object, EventArgs)' could contain the following variables 'this.txt_nom.Text', 'this.txt_prenom.Text', 'this.txt_email.Text', 'new string[13][7]', 'this.type_list.SelectedItem', 'this.txt_cin.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_supprimer_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="admin.cs" Line="267">The query string passed to 'SqlCommand.CommandText.set(string)' in 'admin.btn_supprimer_Click(object, EventArgs)' could contain the following variables 'this.txt_cin.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rechercher(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="admin.cs" Line="314">The query string passed to 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' in 'admin.rechercher(string)' could contain the following variables 'valeur'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="cage" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="cage.cs" Line="32">The query string passed to 'SqlCommand.CommandText.set(string)' in 'cage.button1_Click(object, EventArgs)' could contain the following variables 'this.txt_numero.Text', 'this.txt_nbr_etage.Text', 'this.txt_capacite.Text', 'this.txt_poids.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="cage.cs" Line="155">The query string passed to 'SqlCommand.CommandText.set(string)' in 'cage.button2_Click(object, EventArgs)' could contain the following variables 'this.dataGridView1.SelectedCells[0].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="cage.cs" Line="183">The query string passed to 'SqlCommand.CommandText.set(string)' in 'cage.button3_Click(object, EventArgs)' could contain the following variables 'this.txt_nbr_etage.Text', 'this.txt_capacite.Text', 'this.txt_poids.Text', 'this.txt_numero.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rechercher(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="cage.cs" Line="228">The query string passed to 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' in 'cage.rechercher(string)' could contain the following variables 'valeur'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="catégorie" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="catégorie.cs" Line="213">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'catégorie.button1_Click(object, EventArgs)' could contain the following variables 'this.txt_rechercher.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="catégorie.cs" Line="33">The query string passed to 'SqlCommand.CommandText.set(string)' in 'catégorie.button2_Click(object, EventArgs)' could contain the following variables 'this.txt_nom.Text', 'new string[7][3]', 'this.list_type.SelectedItem'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="catégorie.cs" Line="188">The query string passed to 'SqlCommand.CommandText.set(string)' in 'catégorie.button3_Click(object, EventArgs)' could contain the following variables 'this.dataGridView1.Rows[x].Cells[0].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button4_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="catégorie.cs" Line="153">The query string passed to 'SqlCommand.CommandText.set(string)' in 'catégorie.button4_Click(object, EventArgs)' could contain the following variables 'this.txt_nom.Text', 'this.list_type.SelectedItem', 'this.txt_id.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dataGridView1_SelectionChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="catégorie.cs" Line="317">The query string passed to 'SqlCommand.CommandText.set(string)' in 'catégorie.dataGridView1_SelectionChanged(object, EventArgs)' could contain the following variables 'this.dataGridView1.Rows[x].Cells[3].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rechercher(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="catégorie.cs" Line="274">The query string passed to 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' in 'catégorie.rechercher(string)' could contain the following variables 'valeur'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="etage" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bc_ajouter_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="etage.cs" Line="138">The query string passed to 'SqlCommand.CommandText.set(string)' in 'etage.bc_ajouter_Click(object, EventArgs)' could contain the following variables 'this.txt_id.Text', 'this.txt_quantite.Text', 'this.list_cage.SelectedItem', 'this.txt_poids.Text', 'this.txt_capacité_maximale.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#bc_modifier_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="etage.cs" Line="231">The query string passed to 'SqlCommand.CommandText.set(string)' in 'etage.bc_modifier_Click(object, EventArgs)' could contain the following variables 'this.txt_quantite.Text', 'this.list_cage.SelectedItem', 'this.txt_poids.Text', 'this.txt_capacité_maximale.Text', 'this.txt_id.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#bc_supprimer_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="etage.cs" Line="265">The query string passed to 'SqlCommand.CommandText.set(string)' in 'etage.bc_supprimer_Click(object, EventArgs)' could contain the following variables 'this.dataGridView1.SelectedCells[0].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rechercher(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="etage.cs" Line="187">The query string passed to 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' in 'etage.rechercher(string)' could contain the following variables 'valeur'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="jwayDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'jwayDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="jwayDataSet+produitDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'jwayDataSet.produitDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="login" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_login_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="login.cs" Line="72">The query string passed to 'SqlCommand.CommandText.set(string)' in 'login.btn_login_Click(object, EventArgs)' could contain the following variables 'this.ds.Tables["utilisateurs"].Rows[0][0]'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="produit" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="283">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.button2_Click(object, EventArgs)' could contain the following variables 'this.txt_id.Text', 'new string[23][3]', 'new string[23][5]', 'this.txt_libelle.Text', 'this.txt_prix.Text', 'this.list_type.SelectedItem', 'this.list_categorie.SelectedItem', 'this.list_cage.SelectedItem', 'this.list_etage.SelectedItem', 'this.txt_poids.Text', 'this.txt_quantité.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="324">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.button3_Click(object, EventArgs)' could contain the following variables 'this.dataGridView1.SelectedCells[0].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button4_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="82">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.button4_Click(object, EventArgs)' could contain the following variables 'new string[22][1]', 'date_sortie', 'this.txt_libelle.Text', 'this.txt_prix.Text', 'this.list_type.SelectedItem', 'this.list_categorie.SelectedItem', 'this.list_cage.SelectedItem', 'this.list_etage.SelectedItem', 'this.txt_poids.Text', 'this.txt_quantité.Text', 'this.txt_id.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button5_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="348">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.button5_Click(object, EventArgs)' could contain the following variables 'this.txt_rechercher.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dataGridView1_SelectionChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="639">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.dataGridView1_SelectionChanged(object, EventArgs)' could contain the following variables 'this.dataGridView1.Rows[xm].Cells["Id"].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="619">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.dataGridView1_SelectionChanged(object, EventArgs)' could contain the following variables 'this.dataGridView1.Rows[xm].Cells[6].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="627">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.dataGridView1_SelectionChanged(object, EventArgs)' could contain the following variables 'this.dataGridView1.Rows[xm].Cells[7].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#list_cage_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="450">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.list_cage_SelectedIndexChanged(object, EventArgs)' could contain the following variables 'this.list_cage.SelectedItem'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#list_type_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="409">The query string passed to 'SqlCommand.CommandText.set(string)' in 'produit.list_type_SelectedIndexChanged(object, EventArgs)' could contain the following variables 'this.list_type.SelectedItem'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rechercher(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="produit.cs" Line="56">The query string passed to 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' in 'produit.rechercher(string)' could contain the following variables 'valeur'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TicketProduit" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#TicketProduit_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="TicketProduit.cs" Line="35">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'TicketProduit.TicketProduit_Load(object, EventArgs)' could contain the following variables 'produit.pas'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="type" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bc_ajouter_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="type.cs" Line="163">The query string passed to 'SqlCommand.CommandText.set(string)' in 'type.bc_ajouter_Click(object, EventArgs)' could contain the following variables 'this.txt_nom.Text', 'new string[7][3]', 'this.txt_nbr_calories.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#bc_modifier_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="type.cs" Line="227">The query string passed to 'SqlCommand.CommandText.set(string)' in 'type.bc_modifier_Click(object, EventArgs)' could contain the following variables 'this.txt_nom.Text', 'this.txt_nbr_calories.Text', 'this.txt_id.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#bc_supprimer_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="type.cs" Line="195">The query string passed to 'SqlCommand.CommandText.set(string)' in 'type.bc_supprimer_Click(object, EventArgs)' could contain the following variables 'this.dataGridView1.SelectedCells[0].Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rechercher(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-06-17 10:58:34Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="c:\Users\badr\Documents\Visual Studio 2013\Projects\Jwork\jway" File="type.cs" Line="124">The query string passed to 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' in 'type.rechercher(string)' could contain the following variables 'valeur'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implement ISerializable correctly</Name>
+   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
+   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
